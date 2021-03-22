@@ -7,6 +7,7 @@ allow system_app proc_touchpanel:dir { search };
 allow system_app proc_touchpanel:file { write };
 allow system_app proc_touchpanel:file { open };
 allow system_app proc_touchpanel:file { read };
+allow system_app proc_touchpanel:file { getattr open read write };
 allow system_app sysfs:file { read };
 allow system_app sysfs:file { open };
 allow system_app sysfs:file { getattr };
