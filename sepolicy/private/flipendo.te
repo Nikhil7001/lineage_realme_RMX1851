@@ -1,1 +1,2 @@
+type flipendo;
 binder_call(flipendo, hal_power_pixel);

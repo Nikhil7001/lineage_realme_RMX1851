@@ -136,8 +136,8 @@ PRODUCT_PACKAGES += \
     lineage.touch@1.0-service.realme_sdm710
 
 # USB
-PRODUCT_PACKAGES += \
-    android.hardware.usb@1.0-service.realme_sdm710
+ PRODUCT_PACKAGES += \
+    android.hardware.usb@1.0-service.basic
 
 # VNDK
 PRODUCT_COPY_FILES += \
@@ -157,8 +157,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libnl
 
-PRODUCT_BOOT_JARS += \
-    WfdCommon
+# PRODUCT_BOOT_JARS += \
+    # WfdCommon
 
 # Wallpapers
 PRODUCT_PACKAGES += \
